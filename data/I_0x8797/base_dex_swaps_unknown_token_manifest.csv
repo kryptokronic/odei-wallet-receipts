@@ -1,0 +1,16 @@
+token_address,rows_affected,note
+0x168c9dfff02fd4e47180125dd8672acc8a5b2965,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0x3f1c50f4866b0a39153ae31e2f3a7b9300fefb07,3,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0x56ab53b77f07da3af732150e8aec4783eb5bba7d,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0x908b1d6b6c12bfdfcaaeb658b365ce39c21e679c,18,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0x9e00fc92493451eba1c63dd3880d68b622037ba3,10,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb20000000000000000000004ad61a761cff6bfba,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb2000000000000000000001b0d6290f211117201,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb2000000000000000000002b3dedd6a7abd52d01,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb20000000000000000000048dfff82de8e5761cb,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb2000000000000000000006fa33fedb16efe3501,3,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb2000000000000000000007626fb12ff1816e201,6,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb20000000000000000000076a1dd6bf00003ca01,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb2000000000000000000007b9fcbd005511acbd5,5,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb2000000000000000000007bf6d5cbb0e24cb301,6,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers
+0xb2000000000000000000009d4aabbe883a194501,2,no symbol/decimals in token metadata; amounts in main CSV are raw base-unit integers

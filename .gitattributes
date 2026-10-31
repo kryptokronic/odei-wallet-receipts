@@ -1,0 +1,3 @@
+# Keep receipt bytes exactly as returned by the provider: no line-ending conversion,
+# otherwise the CSV SHA-256 values in INDEX.csv stop matching.
+* -text

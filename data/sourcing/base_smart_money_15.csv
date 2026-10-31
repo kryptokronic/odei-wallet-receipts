@@ -1,0 +1,16 @@
+address,first_swap,last_swap,swap_count,distinct_tokens,realised_pnl_usd,win_rate,pnl_source,labels
+0xa311f7ca3eb2fb98123a807f9b8e4bbbdbdcb2ee,<=2025-01-01,2026-10-28 18:00,1298,53,277808.26,62.5,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x65a8f07bd9a8598e1b5b6c0a88f4779dbc077675,2025-01-02,2026-10-28 23:01,1204,72,153315.63,74.5,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28","""ff-ff-ff"" on Polymarket"
+0x1e77df9d9396c69efbb2d2a59797c1c5040fd47b,2025-02-17,2026-10-28 19:22,1174,17,85624.84,85.7,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x1c3a068430f8fe592703d07b9fd063d47bde8aba,2025-01-11,2026-10-20 01:47,646,14,43377.58,66.7,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x6d37fb5342bef90c16b6f8b310991971ee573ba2,2025-09-30,2026-10-27 03:18,956,24,33015.21,90.9,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28","""Bivis"" on Polymarket"
+0x289bdac3fbb778bdd9726ce00a6149c1af6dccc0,2025-07-25,2026-10-28 10:01,450,26,24374.04,100.0,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0xb71aaf88d47195044fc52c99c7eb3638e44649f8,2025-06-16,2026-10-21 16:22,250,16,21058.78,87.5,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x3c093547c64aee832b4233b6005a24e599cdcd5c,2025-03-17,2026-10-27 15:46,1995,78,10307.74,74.6,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x87acac58a3d3966be2b8238bd000576c8b3cae0c,2026-04-29,2026-10-16 01:43,585,81,9621.44,70.7,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0xf1a0b11fcf3580a9c80cb56aef95fceb949c60a2,2025-03-31,2026-10-28 14:30,593,62,8680.76,57.4,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x7d5e00c155b1e061ab7e760d1ee9f0b65561a223,2025-01-02,2026-10-24 15:30,508,20,7790.66,100.0,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x8c95dc61c5fd7f818588e9b5d7eb031913f2cad4,2026-02-26,2026-10-19 19:30,97,12,5009.00,100.0,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x349f8f068120e04b359556e442a579af41ebf486,2025-08-09,2026-10-28 10:08,245,77,4551.26,74.4,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x2411b1e3cc0840aff6b3a28d8bf237855009efa4,2026-02-21,2026-10-03 10:05,79,27,1422.87,95.7,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28",none
+0x23cb5f48fa3f4502232f3442637f90e8e3355701,2025-01-02,2026-10-22 01:58,92,38,572.04,72.2,"base_dex_trades.amount_usd cash-flow, 2026-05-01..2026-10-28","""rkodali"" on Polymarket"

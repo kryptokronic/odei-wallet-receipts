@@ -1,0 +1,115 @@
+token_address,symbol,balance,method,flag,note
+0x940181a94a35a4569e4529a3cdfb74e38fd98631,AERO,201.754259954569270881,balanceOf@45402126,ok,CoinGecko-listed
+0xd71552d9e08e5351adb52163b3bbbc4d7de53ce1,AITECH,6.176267749240589293,balanceOf@45402126,ok,"DEX-priced, no CoinGecko listing"
+0x9126236476efba9ad8ab77855c60eb5bf37586eb,CHECK,0.000000000000080444,balanceOf@45402126,ok,CoinGecko-listed; dust
+0x9c5c365e764829876243d0b289733b9d2b729685,deSPXA,0.00000000075297704,balanceOf@45402126,ok,"DEX-priced, no CoinGecko listing; dust"
+0xe0cd4cacddcbf4f36e845407ce53e87717b6601d,ICNT,0.476306440792055701,balanceOf@45402126,ok,CoinGecko-listed
+0xd5390300c5db71f80d46f0fa9983fc72d4d1e3da,KAT,0.000000675288718306,balanceOf@45402126,ok,"DEX-priced, no CoinGecko listing; dust"
+0x0ffebc403f2d3dd9ea5501ca03916e98967acb2d,PORTAL,0.000001376873221832,balanceOf@45402126,ok,CoinGecko-listed; dust
+0x1aa8fd5bcce2231c6100d55bf8b377cff33acfc3,RAVE,0.000000000000002688,balanceOf@45402126,ok,CoinGecko-listed; dust
+0x0c03ce270b4826ec62e7dd007f0b716068639f7b,TIG,0.000000073217559101,balanceOf@45402126,ok,"DEX-priced, no CoinGecko listing; dust"
+0xf43eb8de897fbc7f2502483b2bef7bb9ea179229,ZEN,1.084106976652707512,balanceOf@45402126,ok,CoinGecko-listed
+0x8e4cbbcc33db6c0a18561fde1f6ba35906d4848b,MEZO,33.064240396580221202,balanceOf@45402126,traded_unlisted,traded on-chain but no CoinGecko listing (DEX-only pricing)
+0x0000000000000000000000000000000000000000,ETH,0.191323107354081937,eth_getBalance@45402126,native,native gas asset; transfer-derived net 0.2783 differs by gas paid
+0x1623e2b197b1acfd09d443d4e2d0fab53b8f7301,,9,balanceOf@45402126,counterfeit,"named ""Circle Wrapped Bitcoin"" - cbBTC clone, 9-dec airdrop batch"
+0x43a679a3bb63ca19c948eb4f39f5af3ffc236c50,cbBTС,1.5,balanceOf@45402126,counterfeit,"cbBTC homoglyph (""Coinbase Wrapped BTC"" clone); outflows only; balanceOf != transfer-net (-0.09011712)"
+0x59828f30a4ad35d1d0b85c734d48ac6de04e314c,CHIP,9,balanceOf@45402126,counterfeit,symbol CHIP at a non-canonical address (canonical CHIP on Base is 0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e); balanceOf != transfer-net (69)
+0x91895da0073e12a06aa93aee35099106b26f12e9,ETH,0.58,transfers_net,counterfeit,"named ""Ethereum"", symbol ETH, at a non-canonical address; 1 airdrop in, no market"
+0x79624893f8fbd6c6e362fdb60832be71a03ce61f,EÐ¢H,25.5,balanceOf@45402126,counterfeit,ETH homoglyph (D-stroke); balanceOf returns 25.5 while 8 outflows and 0 inflows are recorded; balanceOf != transfer-net (-14)
+0x033b1444fbfac85f3761831000dbdad714c48e50,SOL,1000,balanceOf@45402126,counterfeit,"impersonates SOL: canonical bridged SOL is 0x311935cd80b76769bf2ecc9d8ab7635b2139cf82; contract name ""Solana virtuals"""
+0xeb9caafc9cd52434fc906dc6ef28f24509d9b309,UЅDС,6685.5,balanceOf@45402126,counterfeit,"USDC homoglyph symbol (Cyrillic S/C); outflows only, no purchase history; balanceOf != transfer-net (-1018627.259904)"
+0x309c4b0e7e8d85f6d0e93a9c290e0a1ced2b7285,VVV,100,balanceOf@45402126,counterfeit,impersonates VVV ($VVV): canonical Venice Token is 0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf
+0xac7cce9560d9ad9cd6c95303b2f6c291a4c2f5da,VVV,9,balanceOf@45402126,counterfeit,"symbol VVV at a non-canonical address, 9-dec airdrop batch"
+0x57ea1628064abc933974b9a36ce2b186f6b9e961,ՍЅⅮС,1235.011302,transfers_net,counterfeit,USDC homoglyph symbol; balanceOf() returns empty
+0x9cc6261a7f67d2b7b8f5fc59d117f412f27ca4af,⁤Ε⁤Τ​Η⁣⁪,3.3,balanceOf@45402126,counterfeit,ETH homoglyph using invisible/zero-width unicode; balanceOf != transfer-net (-12.6)
+0xba2411968d8012dbfaca3d8f6a6aa2fb0ded0bc5,∪ՏⅮⅭ,5121.003808,transfers_net,counterfeit,USDC homoglyph symbol; balanceOf() reverts / no return data
+0x36fa9cf0ccb9c594b74231073790f62044e7f681,,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.00000000000000075)
+0x9765eaa10b7416da46a5f3de7f3f55ccfa12ce91,(t.me/s/US_POOL) *claim until 05.02.26,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.0000000000000005)
+0xc14f1a108b876f9ecfeb10ec4f154dd8a0c5ccbb,(t.me/s/US_POOL) *claim until 2,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.000000000000001)
+0xcbcdc21395107901a733df806eb85249866db7dd,t.me/s/US_POOL,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.00000000000000075)
+0x4fa840dd1e1adf293dedfd90e2a605e5cfd8ac97,t.me/s/US_POOL | claim until 20.12.25,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.00000000000000085)
+0x63272cd2f76be73219b68ab5f775db5eeb4a8f6e,U S D C ⭐️Visit to claim - | t.me/s/us_pool |,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.0000000000000015)
+0xb5314bb0074071b8da6e552b4f9a081f227553f6,UÐDÐ¡ | t.me/s/US_CIRCLE | *cl,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.000000000000000385)
+0xbe31f977f6f105f529717e583242eee0d3e8ee88,UЅDС | t.me/s/US_POOL | *claim until 14.11.25,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.0000000000000013)
+0x82466795fbdfbcfad6cfca2257540d7c47ba3dc5,www.baser.cfd,7000,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0)
+0x67467d3d235597768b102c442c2dfb5725c220ad,www.baser.cfd,7000,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0)
+0x3ff0560e81e36c9390b7d8903e510defc7e433ca,✅Visit to claim: t.me/s/us_pool,0.000000000000000001,balanceOf@45402126,spam_bait,symbol/name is claim-URL bait text; balanceOf != transfer-net (0.00000000000000075)
+0xa8625cda6dd65551c53ac6d63a33e8278c8d12f4,,7437.289249,transfers_net,spam,no symbol/name metadata; balanceOf() returns no data; 6-decimal balance resembles a fake stablecoin airdrop
+0x7b5e2da16cb26c2401f7f3d7194ba9b71d78aec1,,3968.057175,transfers_net,spam,no symbol/name metadata; balanceOf() returns no data; 6-decimal balance resembles a fake stablecoin airdrop
+0x8070ee608a11f25ff0dba070ff8189be13d4b54d,,1917.47165,transfers_net,spam,no symbol/name metadata; balanceOf() returns no data; 6-decimal balance resembles a fake stablecoin airdrop
+0x9ec0c3232e01fe3f7fb29045890ff3d8b90090b2,,538.065564725409158635,balanceOf@45402126,spam,no symbol/name metadata
+0x7c1803b7ff650e602db598285391750c674a5783,,0.000512,transfers_net,spam,no symbol/name metadata; balanceOf() returns no data; 6-decimal balance resembles a fake stablecoin airdrop
+0x098f95ddc907cbcf4e9c234cf53b0927341afec2,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0xf993a47eb9f3ff482beb8a87b270733fc9ca8525,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x1d7a7d1478e3583782dfc98e80f4ff96258b72d5,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x3c3689f93a9869d1176ccd187f93ad196eaf103e,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0xce014b9c1ac69e01792e9db7393075146a1d4055,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (69)
+0x4ecd6c4802c4fd2da0445ea3469735fbd1cc7677,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xc3bc6e376159b2825d8cf1aa7c151eee0ba5aafd,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x6dae22593d210f870889483d008590d9bded53a3,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x3d1fb1bc77d1b049e403affebb954160d1d946e2,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x4da55cd03276e0fbacb313f957ac6f53a94f7fba,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x0d4d191a72c1d8d6703d6d3ed1a532b67d5a5f14,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x490aefda694ca5392edf58751e8b3b825d717f28,,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0xd2869e0a91a101baf7bb4d05cde22c6f9d8bd294,ALIGN,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x5e74320edad056b5bd46286d15c3670ba795215b,ANIME,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xa13a3c78d5a49ed234bde204990c57375db9be7d,ASTEROID,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0xccdeeb1baf73c1b5dc05e2ed25ce8e2bd03d956c,AZTEC,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xb5e33b9438ead37d08ae53b63ec27a7ad9bb459d,BASED,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x0daba40cd11e18216e1c79916604e60b5980487a,BLEND,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (69)
+0xd6d115c81a888dc05c93a0acc34eeaf0d11531b2,BLEND,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x8791a54acdcce7c69a552d12d2733b42327d17fe,CHAINZ,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xbb13ed81cc0d42c033635418db888da4cb01e14c,CHIMP,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x16c037ee1c0e5279384034d8a3c9aaa2e6ff1bf1,CNF,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x1f847ee5247124beeab90f78d759369100cb63d4,DEUS,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x98b731e33755f2603832b0f15ef51b4f54a6c569,EDGE,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x313bbc9e54afce1b03696a27be1f0b59317ff319,ELIEN,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x9a147f93319623a6597628b10fb20601731bbdb3,ION,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x6068b0b9b0aa8957808fbec96803b8a0ae791698,IPEPE,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xc970c50bee2ffd114f5d65ee18520b66da5f62c1,LOKI,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x27777ec2be4258d32134271f1d5d7d1d896aa86d,LWP,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0xa85d30e2dda0a360c612284f91421c9de4a8a2a4,METAWIN,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x6d30a1a3260e1c6a250e1af4704897c2a7470deb,MOGU,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x1ce89cf4a098295d4ec294c3dd7e0e195f906626,Moltbook,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x5b1a31fa5fa14b776b88da8024f89ad149c13938,MUTM,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xa2e78aabef4cd79f554991845a17d3c30282f180,MWXT,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xcd4b3a396d4a577b91f0a58a363e50d069c17337,NEXFI,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x43a5c3efca87a70eb96d7217cb452fc815eb13dd,NIGHT,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xdc71fc1b65f7e46e58bc1940b901dfc1cf5b8256,OCT,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xf04b8c86339f4758e6cffb513ce00c1381b45ec4,OFC,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x657f719b862be26cb866f7869c0e8f7b10d0ac14,OPENCLAW,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x7709a1e3fe44a0e0c6da02e0801d5e09b92062a8,OPENCLAW,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x7c2f7eef8f12dacb4b20bcd3cfcf98616d64b250,OPG,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x57894437f05640ca014e2c4723fa18fd79b4c9e1,PENGUIN,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x58983645e4022b0758ef1ad182cdfc58793b46ab,preSPAX,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x3e238998406830b65661fa57fa81019fc1ec3bbc,PULSE,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xef0bddb9036a88398f91cdcaf5f449238e682aad,QUACKY,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (69)
+0x330eea8ec44e91302c318006ef5b8202adca2d4d,RISE,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (69)
+0x05c704dab1296b291a0f6ad074d4ecb642c49936,RWA,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xfc33f8fc0920088fdf7184c263f07ea4f1c0cb72,SCAM,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (69)
+0x1697cb81d6c85df9f843c5eb53fb8bea18cc2cc4,SERV,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (69)
+0x848f877c61bf68cd758ffb8f8aa9606e79a571a9,SKR,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x1d2bc2a265a257a48cd9b4a34aef1d0a33329959,SPCX,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x038ea648858e64ff8c71085152b498bc93a3d93c,SPCX,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (69)
+0x91d60def2bf43c0364684c404347cc7fe2c8989e,STRC,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x29c02f411953c2cf451565859c816635d300044d,SYMBIOTIC,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xd62cca1d2582fe47b92ce54cd1dd7e04d63a9aff,TAL,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x99ff98daf968b068d871710a6742a60968510162,TIGA,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x6c5d687198bed6f704eb8340358098b2f249a28e,UMXM,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0x2d7b280792c2288348080a6a5cf3f12cc2de77f8,XChat,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x388890164213378daae16e963381769a33945db8,XNT,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing; balanceOf != transfer-net (99)
+0x1d432aa97b08d78494054c8d01f619d4acbcc2cf,XRPHAI,9,balanceOf@45402126,spam_airdrop,9-decimal 9.0-token batch airdrop; no CoinGecko listing
+0xa8993039e7118a36b1abd94e60c513959b163d6b,$HACHI,0.04505856,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0x3368bfb035f52011d2befdc95d460352fb0ac0b5,8BITBASE,25,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0x8e5567ea749343ffa9dc039f5409874bb750570a,BATNATER,25,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0xdff386ebc2ecb7452f257d2cc8ee9bc27c024c52,DGX,652.071015405364037045,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0x66cbaefec5769acafe910e2e9a0de6dada67f334,GIGABYTE,25,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0x5fee64636cbdf2a3f58695297f833269608dda7f,GREK,1,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0xa2c812f9e4865c4d8b82c00893a5fcfbeb64a2a8,HIBISC,25,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0xde053b7137dc12995b82e52cd6d20792b8a7483f,PUNCH,25,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0x75dba8d0a28c171d4ca98b19c452616f3ee70ac0,RV,8,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0xc0cb75d9fc362f2b5f665349693f2bb7d9f1b00a,SMCO,25,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0x90f335c9780cde98d195a0b1902a9b8852008f49,SR,652.071015405364037045,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0xdf5498b438a3b7a5c29df677c08491f50b57c1b4,Starcloud,100,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0xf5a994d626955e193b2e23be9f61c448a6242501,UPPY,4.733857146608967093,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
+0x4d3ee179eea9db8f223dd4c6dfadd78a9e1fbfed,WWS,78.525981389369140552,balanceOf@45402126,unlisted_airdrop,"single unsolicited inbound, no market data"
