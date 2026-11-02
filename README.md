@@ -10,7 +10,7 @@ Open data store for the Masters Chief multi-agent wallet-research pilot on ODEI 
 | `data/<wallet>/` | Other pulls per wallet: D 0xbe38 full inventory, E 0xa311, F 0x1c3a, G 0xb71a, H 0x7027 (S6 serial-launch test), I 0x8797 (incl. Test 3 cluster), hub 0xfffc54d8, sourcing screens. S-IDs pending for these. |
 | `tibbir-test/` | TIBBIR v1.2 gate-fail dry run: per-wallet reports, fixture results, source ledger (TIBBIR-S001–S036). |
 | `merged/` | One searchable CSV of everything (41,463 rows, with `s_id`, `wallet_label` and the full source row in `raw_json`) plus its manifest, zipped. |
-| `docs/` | Decisions and corrections: the S073/S074 prompt and scope record; the G2 rule 2 spec with worked examples and margin sensitivity. |
+| `docs/` | Decisions and corrections: the S073/S074 prompt and scope record; the G2 rule 2 spec with worked examples and margin sensitivity; the wallet H S6 evidence record. |
 | `derived/` | Computed outputs, e.g. G2 rule 2, one row per transaction for each pilot wallet. |
 | `tools/` | `hash_receipts.py` (row count, file SHA-256, canonical key hash), merge scripts. |
 | `INDEX.csv` | Every CSV here: path, rows, file SHA-256, key type, key fields, distinct keys, collisions, blank key parts, key hash. |
@@ -31,6 +31,16 @@ Key hash = SHA-256 of the canonical key list: one key per row, fields joined by 
 - S073/S074 are two runs of the same prompt (P4); the provider applied "exclude DEX pools/routers" differently. See `docs/`.
 - S075 has 12 rows with a blank `evt_index`.
 - G2 (scale gate), updated 2026-11-01: rule 2, net per-transaction trades (`docs/2026-11-01-g2-net-trade-spec.md`, `tools/g2_net_trades.py`). 0xf043 (C) = $48,595.30, 2.81% below $50,000: original result FAIL, included under the versioned policy exception G2-MARGIN TEST v0.1, tagged BOUNDARY, Monitor-only. The earlier $45,468.73 figure is withdrawn.
+
+## Naming addresses (owner decision 2026-11-02, open to change)
+
+Addresses are named in full: they are the subject of wallet research and are already public on-chain and in this repo. The wording around them follows five rules:
+
+1. Describe what the transactions show (amounts, times, tx hashes), not who is behind them. No words like scam, fraud or rug.
+2. No identity claims: an address is never linked to a person, handle, company or ENS name unless the chain shows it, and then only as a label.
+3. Funding links are associations ("funded by", "shares a funder with"), never ownership or control.
+4. Every finding states its coverage and what remains unproven.
+5. Corrections are posted as new files or posts with a reason, never by editing in place.
 
 ## Rules
 
